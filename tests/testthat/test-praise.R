@@ -5,3 +5,4 @@ testthat::test_that("test praise works", {
                    glue::glue("You're the best, Thomas;"))
   testthat::expect_error(praise())
 })
+
